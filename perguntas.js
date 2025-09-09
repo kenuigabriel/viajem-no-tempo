@@ -1,4 +1,4 @@
-const perguntas = [
+export const perguntas = [
     {
         enunciado: "Você acaba de descobrir uma máquina do tempo em um antigo laboratório abandonado. Ela está pronta para te levar para qualquer época, mas antes de partir, qual época você escolhe explorar primeiro?",
         alternativas: [
