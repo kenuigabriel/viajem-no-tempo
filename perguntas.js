@@ -1,4 +1,4 @@
-export const perguntas = [
+const perguntas = [
     {
         enunciado: "Você acaba de descobrir uma máquina do tempo em um antigo laboratório abandonado. Ela está pronta para te levar para qualquer época, mas antes de partir, qual época você escolhe explorar primeiro?",
         alternativas: [
@@ -7,14 +7,16 @@ export const perguntas = [
                 afirmacao: [
                     "No final da sua jornada, ",
                     "Ao concluir sua jornada,"
-                ]
+                ],
+                proxima: 1,
             },
             {
                 texto: "Viajar para o futuro, para ver como o mundo vai ser daqui a 100 anos.",
                 afirmacao: [
                     "as escolhas que você fez",
                     "cada passo dado através do tempo"
-                ]
+                ],
+                proxima: 2,
             }
         ]
     },
@@ -26,14 +28,18 @@ export const perguntas = [
                 afirmacao: [
                     "ao longo das viagens no tempo",
                     "refletirá de maneira única"
-                ]
+                ],
+                proxima: 3,
+
             },
             {
                 texto: "Se infiltrar na arena e tentar lutar com os gladiadores.",
                 afirmacao: [
                     "terão um grande impacto",
                     "no tecido da realidade."
-                ]
+                ],
+                proxima: 4,
+
             }
         ]
     },
@@ -45,14 +51,18 @@ export const perguntas = [
                 afirmacao: [
                     "no presente e no futuro. ",
                     "O curso da história,"
-                ]
+                ],
+                proxima: 5,
+
             },
             {
                 texto: "Lutar contra a dependência da tecnologia, tentando promover soluções mais humanas.",
                 afirmacao: [
                     "Dependendo das suas decisões, ",
                     "moldado pelas suas escolhas,"
-                ]
+                ],
+                proxima: 6,
+
             }
         ]
     },
@@ -64,14 +74,18 @@ export const perguntas = [
                 afirmacao: [
                     "o mundo pode ser",
                     "poderá resultar em um futuro"
-                ]
+                ],
+                proxima: 7,
+
             },
             {
                 texto: "Optar pelo resgate dos astronautas, priorizando a vida individual sobre a coletiva.",
                 afirmacao: [
                     "mais avançado tecnologicamente,",
                     "de inovações extraordinárias,"
-                ]
+                ],
+                proxima:8,
+
             }
         ]
     },
@@ -83,14 +97,18 @@ export const perguntas = [
                 afirmacao: [
                     "mais equilibrado, ou até mesmo em uma crise devido às mudanças que você causou.",
                     "e harmonia entre as civilizações, ou de desafios intensos e crises inesperadas que exigem uma reconstrução do que foi alterado."
-                ]
+                ],
+                
+
             },
             {
                 texto: " Tentar apagar todas as suas viagens no tempo, para evitar consequências imprevistas.",
                 afirmacao: [
                     "ij",
                     "hby"
-            ]
+            ],
+          
+
             }
         ]
     },
